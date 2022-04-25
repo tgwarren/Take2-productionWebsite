@@ -4,7 +4,7 @@ const spinner = document.querySelector(".spinner")
 
 function addVillagerImage(villager) {
   const div = document.createElement('div')
-  div.classList.add('villager-listing')
+  div.classList.add('villager-image')
   div.innerHTML = `
         <figure>
             <img src='${villager.image_uri}' alt='$villager.name' />
